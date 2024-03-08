@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="ISP.IntegralPage">
+    <ContentPage.Content>
+        <StackLayout Padding="20">
+            <Label 
+                x:Name = "Label"
+                Text="Welcome to .NET MAUI!" 
+                HorizontalTextAlignment="Center" 
+                Margin="10"/>
+            <ProgressBar 
+                x:Name = "progressBar"
+                Progress="0.0" 
+                ProgressColor="SeaGreen" 
+                Margin="30"  />
+            <Button 
+                x:Name = "StartButton"
+                Text="Start" 
+                WidthRequest="80" 
+                Margin="5" 
+                Clicked="OnStartButtonClicked"
+                />
+            <Button 
+                Text="Cancel" 
+                WidthRequest="80" 
+                Margin="5" 
+                Clicked="OnCancelButtonClicked"
+                />
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

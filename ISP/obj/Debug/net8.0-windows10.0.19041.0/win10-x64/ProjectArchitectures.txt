@@ -1,0 +1,1 @@
+D:\ISP\ISP\ISP.csproj;x64
