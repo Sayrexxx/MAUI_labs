@@ -6,7 +6,7 @@
     xmlns:local="clr-namespace:ISP"
     Title="ISP">
 
-    <FlyoutItem Title="first lab">
+    <FlyoutItem Title="1st lab">
 
         <ShellContent
                 ContentTemplate="{DataTemplate local:CalculatorPage}"
@@ -15,12 +15,30 @@
     </FlyoutItem>
     
     
-    <FlyoutItem Title="second lab">
+    <FlyoutItem Title="2nd lab">
 
         <ShellContent
                 Title="ProgressDemo"
                 ContentTemplate="{DataTemplate local:IntegralPage}"
                 Route="IntegralPage" />
+
+    </FlyoutItem>
+
+    <FlyoutItem Title="3rd lab">
+
+        <ShellContent
+                Title="SpaProcedures"
+                ContentTemplate="{DataTemplate local:SpaPage}"
+                Route="SpaPage" />
+    </FlyoutItem>
+
+    <FlyoutItem Title="4th lab">
+
+        <ShellContent
+                Title="CurrencyConverter"
+                ContentTemplate="{DataTemplate local:CurrencyConverterPage}"
+                Route="CurrencyConverterPage"
+            />
 
     </FlyoutItem>
 

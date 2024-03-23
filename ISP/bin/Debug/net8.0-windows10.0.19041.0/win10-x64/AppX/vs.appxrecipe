@@ -16,8 +16,7 @@
     </PackageRegistrationPath>
     <RemoveNonLayoutFiles>false</RemoveNonLayoutFiles>
     <DeployOptionalPackages>false</DeployOptionalPackages>
-    <WindowsSdkPath>
-    </WindowsSdkPath>
+    <WindowsSdkPath>C:\Program Files %28x86%29\Windows Kits\10\</WindowsSdkPath>
     <LayoutDir>D:\ISP\ISP\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\AppX</LayoutDir>
     <RegisteredManifestChecksum>A62FEEFB993A0CDDA40D3B318B14D14545A10012801F8460CFC99C4D4051F1EB</RegisteredManifestChecksum>
     <RegisteredPackageMoniker>com.companyname.isp_1.0.0.1_x64__9zz4h110yvjzm</RegisteredPackageMoniker>
@@ -30,13 +29,13 @@
     <AppXManifest Include="D:\ISP\ISP\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2024-03-08T15:11:56.996</Modified>
+      <Modified>2024-03-23T16:36:56.266</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
     <AppxPackagedFile Include="D:\ISP\ISP\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\resources.pri">
       <PackagePath>resources.pri</PackagePath>
-      <Modified>2024-03-08T15:11:56.854</Modified>
+      <Modified>2024-03-23T16:34:15.355</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\ISP\ISP\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\ISP.runtimeconfig.json">
       <PackagePath>ISP.runtimeconfig.json</PackagePath>
@@ -44,11 +43,11 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\ISP\ISP\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\ISP.dll">
       <PackagePath>ISP.dll</PackagePath>
-      <Modified>2024-03-08T15:11:56.226</Modified>
+      <Modified>2024-03-23T16:36:55.465</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\ISP\ISP\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\apphost.exe">
       <PackagePath>ISP.exe</PackagePath>
-      <Modified>2024-03-08T15:11:56.456</Modified>
+      <Modified>2024-03-23T16:36:55.670</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\ISP\ISP\Resources\Raw\AboutAssets.txt">
       <PackagePath>AboutAssets.txt</PackagePath>
@@ -288,7 +287,7 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\ISP\ISP\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\ISP.deps.json">
       <PackagePath>ISP.deps.json</PackagePath>
-      <Modified>2024-03-08T15:03:53.483</Modified>
+      <Modified>2024-03-23T15:57:37.001</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\reshe\.nuget\packages\microsoft.windows.sdk.net.ref\10.0.19041.31\lib\net6.0\Microsoft.Windows.SDK.NET.dll">
       <PackagePath>Microsoft.Windows.SDK.NET.dll</PackagePath>

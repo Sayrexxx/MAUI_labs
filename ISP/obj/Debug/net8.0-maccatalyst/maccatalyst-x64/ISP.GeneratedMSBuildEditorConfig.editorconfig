@@ -34,6 +34,12 @@ build_metadata.AdditionalFiles.ManifestResourceName = ISP.CalculatorPage.xaml
 build_metadata.AdditionalFiles.TargetPath = CalculatorPage.xaml
 build_metadata.AdditionalFiles.RelativePath = CalculatorPage.xaml
 
+[D:/ISP/ISP/CurrencyConverterPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = ISP.CurrencyConverterPage.xaml
+build_metadata.AdditionalFiles.TargetPath = CurrencyConverterPage.xaml
+build_metadata.AdditionalFiles.RelativePath = CurrencyConverterPage.xaml
+
 [D:/ISP/ISP/IntegralPage.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = ISP.IntegralPage.xaml
@@ -51,3 +57,9 @@ build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = ISP.Resources.Styles.Styles.xaml
 build_metadata.AdditionalFiles.TargetPath = Resources\Styles\Styles.xaml
 build_metadata.AdditionalFiles.RelativePath = Resources\Styles\Styles.xaml
+
+[D:/ISP/ISP/SpaPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = ISP.SpaPage.xaml
+build_metadata.AdditionalFiles.TargetPath = SpaPage.xaml
+build_metadata.AdditionalFiles.RelativePath = SpaPage.xaml

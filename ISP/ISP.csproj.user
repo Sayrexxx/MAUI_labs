@@ -9,7 +9,13 @@
     <MauiXaml Update="CalculatorPage.xaml">
       <SubType>Designer</SubType>
     </MauiXaml>
+    <MauiXaml Update="CurrencyConverterPage.xaml">
+      <SubType>Designer</SubType>
+    </MauiXaml>
     <MauiXaml Update="IntegralPage.xaml">
+      <SubType>Designer</SubType>
+    </MauiXaml>
+    <MauiXaml Update="SpaPage.xaml">
       <SubType>Designer</SubType>
     </MauiXaml>
   </ItemGroup>

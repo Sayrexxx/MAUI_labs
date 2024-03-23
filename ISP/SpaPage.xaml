@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="ISP.SpaPage">
+    <ContentPage.Content>
+        <StackLayout Padding="10">
+
+            <Label Text="Выберите группу процедур" 
+                   TextColor="Wheat"
+                   Margin="10">
+            </Label>
+            <Picker x:Name="groupPicker"
+                    BackgroundColor="Black"
+                    Margin="0,10,0,10"
+                    WidthRequest="350"
+                    TextColor="White"
+          
+                    SelectedIndexChanged="OnPickerSelectedIndexChanged">
+
+                <Picker.Shadow>
+                    <Shadow Brush="Black"
+                            Offset="1,1"
+                            Radius="10"
+                            Opacity="1" />
+                </Picker.Shadow>
+
+            </Picker>
+
+            <CollectionView x:Name="collectionView"
+                            ItemsSource="{Binding Procedures}">
+                <CollectionView.ItemsLayout>
+                    <GridItemsLayout Orientation="Vertical"
+                                     Span="1" />
+                </CollectionView.ItemsLayout>
+                <CollectionView.ItemTemplate>
+                    <DataTemplate>
+                        <Frame Margin="3"
+                               Padding="7"
+                               BackgroundColor="White"
+                               CornerRadius="5"
+                               WidthRequest="350">
+                            <Label Text="{Binding Name}"
+                                   TextColor="Black"
+                                   FontSize="Small"
+                                   HorizontalOptions="Center"
+                                   VerticalOptions="Center" />
+                        </Frame>
+                    </DataTemplate>
+                </CollectionView.ItemTemplate>
+            </CollectionView>
+
+
+            <StackLayout x:Name="dynamicFieldsLayout">
+            </StackLayout>
+
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
